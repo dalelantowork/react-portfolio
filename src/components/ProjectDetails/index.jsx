@@ -52,8 +52,6 @@ const Date = styled.div`
     }
 `
 
-
-
 const Desc = styled.div`
     font-size: 16px;
     font-weight: 400;
@@ -214,10 +212,10 @@ const index = ({ openModal, setOpenModal }) => {
                                     <Member>
                                         <MemberImage src={member.img} />
                                         <MemberName>{member.name}</MemberName>
-                                        <a href={member.github} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.github} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <GitHub />
                                         </a>
-                                        <a href={member.linkedin} target="new" style={{textDecoration: 'none', color: 'inherit'}}>
+                                        <a href={member.linkedin} target="new" style={{ textDecoration: 'none', color: 'inherit' }}>
                                             <LinkedIn />
                                         </a>
                                     </Member>
@@ -226,8 +224,9 @@ const index = ({ openModal, setOpenModal }) => {
                         </>
                     )}
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        
+                        {(project?.github) && <Button dull href={project?.github} target='new'>View Code</Button>}
+                        {(project?.webapp) && <Button href={project?.webapp} target='new'>View Live App</Button>}
                     </ButtonGroup>
                 </Wrapper>
             </Container>
