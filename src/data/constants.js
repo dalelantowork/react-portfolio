@@ -259,7 +259,7 @@ export const experiences = [
     img: "https://media.licdn.com/dms/image/C560BAQE56q30pOs-5Q/company-logo_200_200/0/1602503016572?e=2147483647&v=beta&t=Q_ZQAAGuiOTAp24Iztt2U832CnHzx4R-8HRZI8-YkBs",
     role: "Web Developer",
     company: "Geeknation Outsourcing Inc.",
-    date: "June 2023 - July 2023",
+    date: "Feb 2021 - Feb 2023",
     desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
     skills: [
       "ReactJS",
