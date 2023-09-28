@@ -217,15 +217,30 @@ export const skills = [
           "data:image/png;base64,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",
       },
       {
-        name: "Adobe XD",
+        name: "Slack",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://a.slack-edge.com/80588/marketing/img/meta/slack_hash_256.png",
       },
       {
-        name: "Figma",
+        name: "Scribe",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://scribe.knuckles.wtf/img/logo.png",
       },
+      {
+        name: "Confluence",
+        image:
+          "https://cdn.icon-icons.com/icons2/2429/PNG/512/confluence_logo_icon_147305.png",
+      },
+      // {
+      //   name: "Figma",
+      //   image:
+      //     "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+      // },
+      // {
+      //   name: "Adobe XD",
+      //   image:
+      //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+      // },
     ],
   },
 ];
