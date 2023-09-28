@@ -262,16 +262,14 @@ export const experiences = [
     date: "Feb 2021 - Feb 2023",
     desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
+      "Shopify",
+      "Wordpress",
+      "Liquid",
+      "Elementor",
+      "Divi",
       "JavaScript",
-      "Docker",
       "AWS",
-      "MongoDB",
+      "Payment Gateway",
     ],
   },
   {
@@ -476,7 +474,7 @@ export const projects = [
     image:
       "./projects/image-gallery/photolify.png",
     tags: [
-      "ReactJS",
+      "React Js",
       "Javascript",
       "Styled Components",
       "Infinite Scroll",
@@ -494,7 +492,7 @@ export const projects = [
     image:
       "./projects/image-gallery/dark-mode.png",
     tags: [
-      "ReactJS",
+      "React Js",
       "Javascript",
       "Material UI",
       "Light & Dark Mode",
@@ -502,6 +500,253 @@ export const projects = [
     category: "personal",
     github: "https://github.com/dalelantowork/react-image-gallery",
     webapp: "https://dalelanto-image-gallery.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Cryptoverse",
+    date: "Jan 2022",
+    description:
+      "Cryptoverse site created using reactjs, react redux toolkit, antdesign and rapid api.",
+    image:
+      "./projects/cryptoverse/home.png",
+    tags: [
+      "React Js",
+      "Redux",
+      "Ant Design",
+      "Rapid API",
+      "Cryptocurrency",
+    ],
+    category: "personal",
+    github: "https://github.com/dalelantowork/react-cryptoverse",
+    webapp: "https://dalelanto-cryptoverse.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Cocktails",
+    date: "Apr 2021",
+    description:
+      "Cocktail Drinks in React An application that showcases Cocktail Drinks using react js. Fetched Cocktails API using Context.",
+    image:
+      "./projects/cocktails/product.png",
+    tags: [
+      "React Js",
+      "Context",
+      "API",
+    ],
+    category: "personal",
+    github: "https://github.com/dalelantowork/react-cocktail-drinks-with-api",
+    webapp: "https://dalelanto-react-project-cocktail.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "MERN Admin Dashboard",
+    date: "May 2021",
+    description:
+      "Admin Dashboard created using MERN (Mongo DB, Express JS, React JS and Node JS)",
+    image:
+      "./projects/mern-admin-dashboard/sign-up.png",
+    tags: [
+      "Mongo DB",
+      "Express Js",
+      "Node Js",
+      "React Js",
+      "API",
+    ],
+    category: "personal",
+    github: "https://github.com/dalelantowork/mern-admin-dashboard",
+    webapp: "https://dalelanto-admin-dashboard.netlify.app/auth",
+  },
+  {
+    id: 10,
+    title: "Unionbank Rebates",
+    date: "May 2018 - Jan 2022",
+    description:
+      "Rewards and Recommendations Platform for Unionbank customers developed by FindShare",
+    image:
+      "./projects/unionbank/fashion.png",
+    tags: [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "JQuery",
+      "Bootstrap",
+      "MailTrap",
+      "API",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://rebates.unionbankph.com/popular",
+  },
+  {
+    id: 11,
+    title: "Maybank Cashback",
+    date: "May 2018 - Jan 2022",
+    description:
+      "Cashback and Recommendations Platform for Maybank customers developed by FindShare",
+    image:
+      "./projects/maybank/main.png",
+    tags: [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "JQuery",
+      "Bootstrap",
+      "MailTrap",
+      "API",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://cashback.maybank.com.ph/",
+  },
+  {
+    id: 12,
+    title: "Perahub Cashback",
+    date: "May 2018 - Jan 2022",
+    description:
+      "Cashback and Recommendations Platform for Perahub customers developed by FindShare",
+    image:
+      "./projects/perahub/main.png",
+    tags: [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "JQuery",
+      "Bootstrap",
+      "MailTrap",
+      "API",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://cashback.perahub.com.ph/",
+  },
+  {
+    id: 13,
+    title: "Shippingcart Cashback",
+    date: "May 2018 - Jan 2022",
+    description:
+      "Rewards and Recommendations Platform for Shippingcart customers developed by FindShare",
+    image:
+      "./projects/shippingcart/main.png",
+    tags: [
+      "PHP",
+      "Laravel",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "JQuery",
+      "Bootstrap",
+      "MailTrap",
+      "API",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://rewards.shippingcart.com/",
+  },
+  {
+    id: 14,
+    title: "Summonsers League",
+    date: "Feb 2021 - Feb 2023",
+    description:
+      "Pre-registration page for Summoners League, a massively multiplayer online role-playing mobile game in iOS and Android.",
+    image:
+      "./projects/summoners-league/main.png",
+    tags: [
+      "PHP",
+      "Wordpress",
+      "Elementor",
+      "MySQL",
+      "CPanel",
+      "SMTP Js",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://summonersleague.com/",
+  },
+  {
+    id: 15,
+    title: "Unbroken War Three Kingdoms",
+    date: "Feb 2021 - Feb 2023",
+    description:
+      "Pre-registration page for Unbroken War Three Kingdoms, a chinese strategy mobile game in iOS and Android.",
+    image:
+      "./projects/three-kingdoms/main.png",
+    tags: [
+      "PHP",
+      "Wordpress",
+      "Elementor",
+      "MySQL",
+      "CPanel",
+      "SMTP Js",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://www.surgagame.id/3kingdom-homepage-id",
+  },
+  {
+    id: 16,
+    title: "Xeno Dragon",
+    date: "Feb 2021 - Feb 2023",
+    description:
+      "Web site game page for Xeno Dragon a casual action-strategy role playing mobile game in iOS and Android.",
+    image:
+      "./projects/xeno-dragon/main.png",
+    tags: [
+      "PHP",
+      "Wordpress",
+      "Elementor",
+      "MySQL",
+      "CPanel",
+      "SMTP Js",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://marketplace.xenodragon.io/",
+  },
+  {
+    id: 16,
+    title: "Xeno Dragon",
+    date: "Feb 2021 - Feb 2023",
+    description:
+      "Web site game page for Xeno Dragon a casual action-strategy role playing mobile game in iOS and Android.",
+    image:
+      "./projects/xeno-dragon/main.png",
+    tags: [
+      "PHP",
+      "Wordpress",
+      "Elementor",
+      "MySQL",
+      "CPanel",
+      "SMTP Js",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://marketplace.xenodragon.io/",
+  },
+  {
+    id: 17,
+    title: "Eternal Return",
+    date: "Feb 2021 - Feb 2023",
+    description:
+      "Support web site for players of Eternal Return, an action packed battle-royale role playing Steam game.",
+    image:
+      "./projects/eternal-return/main.png",
+    tags: [
+      "Zendesk",
+      "Javascript",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://support.playeternalreturn.com/hc/en-us",
   },
 ];
 
