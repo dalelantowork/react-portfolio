@@ -551,6 +551,7 @@ export const projects = [
       "Node Js",
       "React Js",
       "API",
+      "Heroku",
     ],
     category: "personal",
     github: "https://github.com/dalelantowork/mern-admin-dashboard",
@@ -713,26 +714,6 @@ export const projects = [
     webapp: "https://marketplace.xenodragon.io/",
   },
   {
-    id: 16,
-    title: "Xeno Dragon",
-    date: "Feb 2021 - Feb 2023",
-    description:
-      "Web site game page for Xeno Dragon a casual action-strategy role playing mobile game in iOS and Android.",
-    image:
-      "./projects/xeno-dragon/main.png",
-    tags: [
-      "PHP",
-      "Wordpress",
-      "Elementor",
-      "MySQL",
-      "CPanel",
-      "SMTP Js",
-    ],
-    category: "web app",
-    github: "",
-    webapp: "https://marketplace.xenodragon.io/",
-  },
-  {
     id: 17,
     title: "Eternal Return",
     date: "Feb 2021 - Feb 2023",
@@ -749,11 +730,3 @@ export const projects = [
     webapp: "https://support.playeternalreturn.com/hc/en-us",
   },
 ];
-
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];
