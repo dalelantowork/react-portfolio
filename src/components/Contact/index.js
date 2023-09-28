@@ -119,8 +119,17 @@ const ContactButton = styled.input`
   font-size: 18px;
   font-weight: 600;
 `
-
-
+const EmailIcon = styled.a`
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-size: 1rem;
+  color: ${({ theme }) => theme.text_primary};
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
+`;
 
 const Contact = () => {
 
@@ -130,7 +139,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_1qwert7', 'template_1qwert7', form.current, '1qwertyuiopasd16')
+    emailjs.sendForm('service_lspvtek', 'template_u96pqtn', form.current, 'JhYFxBtOP8VPz-i0t')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -145,9 +154,12 @@ const Contact = () => {
     <Container>
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Desc>
+          Feel free to reach out to me for any questions or opportunities 
+        </Desc>
+        <EmailIcon href="mailto:dalelanto.work@gmail.com">dalelanto.work@gmail.com</EmailIcon>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email me 🚀  dalelanto.work@gmail.com</ContactTitle>
+          <ContactTitle>Email me 🚀  </ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
