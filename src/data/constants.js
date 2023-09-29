@@ -275,7 +275,7 @@ export const experiences = [
     role: "Web Developer",
     company: "Geeknation Outsourcing Inc.",
     date: "Feb 2021 - Feb 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    desc: "Applied problem-solving skills to develop innovative solutions to complex challenges. Proven ability to quickly learn new systems and technologies.",
     skills: [
       "Shopify",
       "Wordpress",
