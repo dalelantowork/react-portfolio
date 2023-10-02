@@ -744,4 +744,20 @@ export const projects = [
     github: "",
     webapp: "https://support.playeternalreturn.com/hc/en-us",
   },
+  {
+    id: 18,
+    title: "Foodie",
+    date: "Sept 2023",
+    description: "Restaurant Landing page using React JS and React Carousel.",
+    image: "./projects/foodie/main.png",
+    tags: [
+      "ReactJS",
+      "HTML",
+      "CSS",
+      "React Carousel"
+    ],
+    category: "personal",
+    github: "https://github.com/dalelantowork/restaurant-landing",
+    webapp: "https://dalelanto-foodie.netlify.app",
+  },
 ];
