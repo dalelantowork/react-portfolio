@@ -122,6 +122,21 @@ export const skills = [
           "https://phpunit.de/img/phpunit.svg",
       },
       {
+        name: "GraphQL",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png",
+      },
+      {
+        name: "Doctrine",
+        image:
+          "https://www.doctrine-project.org/logos/doctrine-logo.svg?1a5b7c",
+      },
+      {
+        name: "Apollo GraphQL",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/apollo-graphql-compact.svg",
+      },
+      {
         name: "Python",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
@@ -165,6 +180,11 @@ export const skills = [
         name: "Rapid API",
         image:
           "data:image/png;base64,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",
+      },
+      {
+        name: "Render",
+        image:
+          "https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/10/render-alternative-logo.webp",
       },
     ],
   },
@@ -751,7 +771,7 @@ export const projects = [
     description: "Restaurant Landing page using React JS and React Carousel.",
     image: "./projects/foodie/main.png",
     tags: [
-      "ReactJS",
+      "React Js",
       "HTML",
       "CSS",
       "React Carousel"
@@ -759,5 +779,37 @@ export const projects = [
     category: "personal",
     github: "https://github.com/dalelantowork/restaurant-landing",
     webapp: "https://dalelanto-foodie.netlify.app",
+  },
+  {
+    id: 19,
+    title: "Simple GraphIQL",
+    date: "Nov 2023",
+    description: "Simple App using Node JS, Express JS and GraphQL using GraphiQL as front",
+    image: "./projects/graphiql/main.png",
+    tags: [
+      "Node Js",
+      "Express Js",
+      "GraphQL",
+      "GraphiQL",
+    ],
+    category: "personal",
+    github: "https://github.com/dalelantowork/nodejs-graphql",
+    webapp: "",
+  },
+  {
+    id: 20,
+    title: "GraphQL CRUD using Apollo",
+    date: "Nov 2023",
+    description: "Simple Full Stack GraphQL API made using Node JS, Apollo and React JS",
+    image: "./projects/graphql-apollo/main.png",
+    tags: [
+      "Node Js",
+      "GraphQL",
+      "Apollo",
+      "React JS",
+    ],
+    category: "personal",
+    github: "https://github.com/dalelantowork/nodejs-graphql-crud-react",
+    webapp: "",
   },
 ];
