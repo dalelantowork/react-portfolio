@@ -12,7 +12,7 @@ export const Bio = {
     "equipped with more than 5 yrs of experience in web development. Proficient in API Development & Integration, Database Management and Testing.",
   github: "https://github.com/dalelantowork",
   resume:
-    "https://drive.google.com/file/d/1cdP5b2jAK3RX5cOJPSdcYGVE8dm_cJZS/view?usp=sharing",
+    "https://drive.google.com/file/d/1Xpa8WgyUM9hanhAWz6-OXbY5Py5pjiup/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dale-nardeen-lanto/",
   devto: "https://dev.to/dalelantowork",
   facebook: "https://www.facebook.com/sora.dayru",
@@ -70,6 +70,16 @@ export const skills = [
         name: "JQuery",
         image:
           "https://w7.pngwing.com/pngs/720/46/png-transparent-jquery-plain-wordmark-logo-icon-thumbnail.png",
+      },
+      {
+        name: "Ionic",
+        image:
+          "https://ionicacademy.com/wp-content/uploads/2017/06/ionic-logo-portrait.png",
+      },
+      {
+        name: "Capacitor",
+        image:
+          "https://pbs.twimg.com/profile_images/1268235262641004544/OLW1xl7t_400x400.png",
       },
     ],
   },
@@ -811,5 +821,26 @@ export const projects = [
     category: "personal",
     github: "https://github.com/dalelantowork/nodejs-graphql-crud-react",
     webapp: "",
+  },
+  {
+    id: 21,
+    title: "Ionic, Capacitor and React JS",
+    date: "Nov 2023",
+    description: "Mobile App compatible with iOS, Android and Web using Ionic in React JS and Capacitor",
+    image: "./projects/ionic-capacitor/login.png",
+    tags: [
+      "iOS",
+      "Android",
+      "Web",
+      "React JS",
+      "Ionic",
+      "Capacitor",
+      "TypeScript",
+      "Swiper",
+      "Netlify",
+    ],
+    category: "mobile",
+    github: "https://github.com/dalelantowork/ionic-capacitor-web-mobile-app",
+    webapp: "https://dalelanto-ionic-capacitor.netlify.app/",
   },
 ];
