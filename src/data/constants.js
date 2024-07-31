@@ -152,6 +152,16 @@ export const skills = [
           "https://phpunit.de/img/phpunit.svg",
       },
       {
+        name: "Filament",
+        image:
+          "https://filamentphp.com/favicon/apple-touch-icon.png?v=w1dBNxT7Wg",
+      },
+      {
+        name: "Livewire",
+        image:
+          "https://pharaonic.io/assets/media/vendors/livewire.png",
+      },
+      {
         name: "REST",
         image:
           "https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/rest-api-icon.png",
@@ -160,6 +170,16 @@ export const skills = [
         name: "SOAP",
         image:
           "https://xpertlab.com/wp-content/uploads/2020/12/icon-soap.png",
+      },
+      {
+        name: "Laravel Valet",
+        image:
+          "https://laravel.com/img/logomark.min.svg",
+      },
+      {
+        name: "Laravel Herd",
+        image:
+          "https://herd.laravel.com/images/appicon.png",
       },
       {
         name: "GraphQL",
