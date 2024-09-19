@@ -9,10 +9,10 @@ export const Bio = {
     "Shopify Developer",
   ],
   description:
-    "equipped with more than 5 yrs of experience in web development. Proficient in API Development & Integration, Database Management and Testing.",
+    "equipped with 7 years of experience in web development. Proficient in API Development & Integration, Database Management and Testing.",
   github: "https://github.com/dalelantowork",
   resume:
-    "https://drive.google.com/file/d/1Xpa8WgyUM9hanhAWz6-OXbY5Py5pjiup/view?usp=sharing",
+    "https://drive.google.com/file/d/1YwmchLTVDi-1gjd-6Y3yg7VhvKMQDwI8/view",
   linkedin: "https://www.linkedin.com/in/dale-nardeen-lanto/",
   devto: "https://dev.to/dalelantowork",
   facebook: "https://www.facebook.com/sora.dayru",
