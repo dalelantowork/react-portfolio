@@ -15,7 +15,6 @@ export const Bio = {
   devto: "https://dev.to/dalelantowork",
   facebook: "https://www.facebook.com/sora.dayru",
   hashnode: "https://dalelanto.hashnode.dev",
-  devto: "https://dev.to/dalelantowork",
 };
 
 export const skills = [
