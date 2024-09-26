@@ -125,7 +125,7 @@ const Skills = () => {
       <Wrapper>
         <Title>Skills</Title>
         <Desc>
-        With more than 5 years of hands-on experience in web development, I bring proven expertise to drive your projects to success. 
+        With more than 6 years of hands-on experience in web development, I bring proven expertise to drive your projects to success. 
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (

@@ -152,7 +152,7 @@ export const Span = styled.span`
 export const SubTitle = styled.div`
   font-size: 20px;
   line-height: 32px;
-  margin-bottom: 42px;
+  margin-bottom: 25px;
   color: ${({ theme }) => theme.text_primary + 95};
 
   @media (max-width: 960px) {
@@ -165,6 +165,19 @@ export const SubTitle = styled.div`
   }
 `;
 
+export const ButtonContainer = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1100px;
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
+`;
+
 export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;
@@ -174,6 +187,7 @@ export const ResumeButton = styled.a`
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
+    margin-bottom: 22px;
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
@@ -199,4 +213,9 @@ export const ResumeButton = styled.a`
         font-size: 18px;
     } 
 
+`;
+
+export const BlogLink = styled.a`
+    color:${({ theme }) => theme.white};
+    margin-right: 5px;
 `;
