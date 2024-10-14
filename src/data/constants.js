@@ -410,6 +410,8 @@ export const experiences = [
     skills: [
       "PHP",
       "Laravel 8",
+      "React JS",
+      "Vue JS",
       "API Development and Integration",
       "MySQL",
       "Automated Tests",
@@ -568,9 +570,10 @@ export const projects = [
     image:
       "./projects/waybr/main.png",
     tags: [
-      "React Js",
       "PHP",
       "Laravel",
+      "React Js",
+      "VueJs",
       "API Development and Integration",
       "MySQL",
       "Automated Tests",
