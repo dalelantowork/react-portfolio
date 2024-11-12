@@ -563,6 +563,30 @@ export const projects = [
   },
   {
     id: 2,
+    title: "ApeUni",
+    date: "Dec 2023 - Aug 2024",
+    description:
+      "Online platform that aims to teach and improve the English communication skills of students. It uses the Pearson Test of English (PTE, which is a computer-based test that assesses the English language skills of non-native speakers intending to apply for university courses in English-speaking countries.",
+    image:
+      "./projects/apeuni/main.png",
+    tags: [
+      "PHP",
+      "Laravel",
+      "Livewire",
+      "Azure OpenAI",
+      "AlpineJs",
+      "MySQL",
+      "Stripe",
+      "Mailtrap",
+      "Brevo",
+      "Google Cloud Services",
+    ],
+    category: "web app",
+    github: "",
+    webapp: "https://www.apeuni.com/en/pte/user_center/home?type=home",
+  },
+  {
+    id: 2,
     title: "Waybr",
     date: "Jan 2023 - Nov 2023",
     description:
