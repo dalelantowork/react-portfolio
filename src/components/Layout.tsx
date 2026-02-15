@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import MainContent from './MainContent';
 import Navbar from './Navbar/Navbar';
+import BeeAnimation from './Effects/BeeAnimation';
 
 const Layout: React.FC = () => {
     return (
@@ -11,6 +12,7 @@ const Layout: React.FC = () => {
                     <Sidebar />
                 </div>
                 <div className="col-lg-7 col-xl-8 col-xxl-9 main-content-scroll position-relative">
+                    <BeeAnimation />
                     <Navbar />
                     <MainContent />
                 </div>

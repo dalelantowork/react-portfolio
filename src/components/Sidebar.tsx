@@ -18,7 +18,7 @@ const Sidebar: React.FC = () => {
                         color: 'var(--primary-color)',
                         fontSize: '1.5rem'
                     }}>
-                        🐱
+                        🍯
                     </div>
                     <div>
                         <h1 className="fs-2 fw-bold mb-0" style={{ lineHeight: '1.2', color: 'var(--text-main)' }}>

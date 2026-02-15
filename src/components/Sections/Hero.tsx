@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { Bio } from '../../data/constants';
 import gsap from 'gsap';
+import Typewriter from 'typewriter-effect';
 
 const Hero: React.FC = () => {
     const heroRef = useRef<HTMLDivElement>(null);
@@ -26,11 +27,19 @@ const Hero: React.FC = () => {
                 </div>
                 <h1 className="display-1 fw-bold mb-4 reveal-text" style={{ lineHeight: '1.1', color: 'var(--text-main)' }}>
                     I'm {Bio.name} <br />
-                    <span style={{ color: 'var(--primary-color)' }}>Senior Web Developer.</span>
+                    <span style={{ color: 'var(--primary-color)' }}>
+                        <Typewriter
+                            options={{
+                                strings: Bio.roles,
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
+                    </span>
                 </h1>
 
                 <p className="fs-4 text-muted reveal-text max-w-600">
-                    A <span className="fw-bold" style={{ color: 'var(--text-main)' }}>Web Developer</span> specializing in building high-performance web applications and digital experiences.
+                    A <span className="fw-bold" style={{ color: 'var(--text-main)' }}>Software Developer</span> specializing in building high-performance web applications and digital experiences.
                 </p>
 
                 <div className="mt-5 reveal-text d-flex align-items-center gap-4">
