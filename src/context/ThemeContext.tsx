@@ -12,7 +12,14 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [theme, setTheme] = useState<Theme>(() => {
         const savedTheme = localStorage.getItem('theme');
-        return (savedTheme as Theme) || 'light';
+        if (savedTheme) {
+            return savedTheme as Theme;
+        }
+        // Default to dark mode on mobile
+        if (window.matchMedia && window.matchMedia('(max-width: 768px)').matches) {
+            return 'dark';
+        }
+        return 'light';
     });
 
     useEffect(() => {

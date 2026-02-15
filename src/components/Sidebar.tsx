@@ -81,9 +81,9 @@ const Sidebar: React.FC = () => {
             </div>
 
             <div className="cta-section mt-auto">
-                <button className="btn-primary-custom w-100 py-3 text-uppercase letter-spacing-1">
+                <a href="mailto:dalelanto.work@gmail.com" className="btn-primary-custom w-100 py-3 text-uppercase letter-spacing-1 d-block text-center text-decoration-none">
                     Let's Work Together!
-                </button>
+                </a>
             </div>
         </div>
     );

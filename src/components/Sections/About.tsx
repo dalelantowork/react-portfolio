@@ -9,8 +9,8 @@ const About: React.FC = () => {
                     <span className="text-secondary opacity-75">✦</span> About Me
                 </div>
                 <h2 className="display-4 fw-bold mb-4" style={{ color: 'var(--text-main)', maxWidth: '800px' }}>
-                    Turning complex problems <br />
-                    <span className="text-outline">into simple design</span>
+                    Refining complexity. <br />
+                    <span className="text-outline">Designing simplicity.</span>
                 </h2>
             </div>
 
